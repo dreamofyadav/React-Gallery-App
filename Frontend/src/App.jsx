@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const TABS = ["About Me", "Experiences", "Recommended"];
 
 export default function App() {
-  const [activeTab, setActiveTab] = useState("Recommended");
+  const [activeTab, setActiveTab] = useState("About Me");
   const [images, setImages] = useState([]);
 
   const [startIndex, setStartIndex] = useState(0); // for gallery pagination
